@@ -20,7 +20,7 @@ public:
         }
         return ans;
     }
-}
+};
 
 //快速***(why,应该是由于map的使用，深层原因？），代码略显笨拙（用switch改一下）
 class Solution{
@@ -46,4 +46,4 @@ public:
         }
         return sum;
     }
-}
+};
