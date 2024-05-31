@@ -16,7 +16,7 @@ public:
         }
         return true;
     }
-}
+};
 
 //构造法（优化），取某一位的数字
 class Solution{
@@ -33,4 +33,4 @@ public:
         return reverseNum == x || (reverse / 10) == x;
         //循环结束后，偶数位直接判断。奇数位r位数比x多1。
     }
-}
+};
