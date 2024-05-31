@@ -11,7 +11,7 @@ public:
                     return { i , j };
         return { i , j };
     } 
-}
+};
 
 //哈希：判断元素是否在集合中遍历过，map存储遍历过的元素及下标
 //unordered_map 存和读效率最高
@@ -28,4 +28,4 @@ class Solution {
                 hash[nums[i]] = i;//map存储该元素
             }
             return { };
-}
+};
